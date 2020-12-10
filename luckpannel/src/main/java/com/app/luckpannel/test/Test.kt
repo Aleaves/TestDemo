@@ -6,4 +6,8 @@ class Test {
         return a + b
     }
 
+    fun test3(){
+        
+    }
+
 }
