@@ -13,6 +13,9 @@ class Test {
     fun test1(){
 
     }
+    
+    fun test7(){
+    }
 
 }
 
