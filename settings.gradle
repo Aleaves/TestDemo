@@ -1,0 +1,2 @@
+include ':app', ':testplugin', ':floatview', ':library', ':DroidPlugin1', ':plugin', ':pluginapp', ':reader', ':luckpannel'
+rootProject.name='TestDemo'

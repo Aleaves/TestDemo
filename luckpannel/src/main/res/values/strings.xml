@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LuckPannel</string>
+    <string-array name="names">
+        <item>¥ 8 8</item>
+        <item>¥ 6 6</item>
+        <item>¥ 2 5</item>
+        <item>¥ 3 8</item>
+        <item>随 机</item>
+        <item>谢 谢</item>
+    </string-array>
+
+    <string-array name="icons">
+        <item>iphone</item>
+        <item>iphone</item>
+        <item>iphone</item>
+        <item>iphone</item>
+        <item>iphone</item>
+        <item>iphone</item>
+    </string-array>
+
+    <string-array name="colors">
+        <item>#fef9f7</item>
+        <item>#fbc6a9</item>
+        <item>#ffdecc</item>
+        <item>#fbc6a9</item>
+        <item>#ffdecc</item>
+        <item>#fbc6a9</item>
+    </string-array>
+</resources>

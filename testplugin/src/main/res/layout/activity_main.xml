@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_hide_api"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="反射调用隐藏API"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <Button
+        android:id="@+id/bt_reflect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="突破反射限制"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bt_hide_api"
+        />
+
+    <Button
+        android:id="@+id/bt_install"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="安装插件"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_hide_api"
+        />
+
+    <Button
+        android:id="@+id/bt_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="卸载插件"
+        app:layout_constraintStart_toEndOf="@+id/bt_install"
+        app:layout_constraintTop_toBottomOf="@id/bt_reflect"
+        />
+    <Button
+        android:id="@+id/bt_start_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动支付插件"
+        app:layout_constraintTop_toBottomOf="@id/bt_reflect"
+        app:layout_constraintStart_toEndOf="@id/bt_delete"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
