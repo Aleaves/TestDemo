@@ -8,4 +8,8 @@ class MainTestActivity {
     fun getUserAge(): Int {
         return 18
     }
+
+    fun getUserAddress():String{
+        return "湖南"
+    }
 }
